@@ -1,0 +1,296 @@
+  body {
+    font-family: Arial, sans-serif;
+    padding: 1em;
+  }
+  
+/* Cabecera */
+
+  header {
+    margin-top: 5px;
+    padding: 2px;
+    background: linear-gradient(to right, #49a7dd, #c5dee0);
+    border-radius:20px;
+  }
+
+  main {
+    margin: auto;
+    border: 2px;
+    
+  }
+  
+  section {
+    margin-bottom: 5px;
+    max-width: 100%;
+    border-radius:20px;
+  }
+  
+ 
+  .imagen1{
+    border: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+
+  ul.list-unstyled {
+    font-size: 32px;
+    text-align: justify;
+    
+  }
+
+  ul.list-unstyled2 {
+    font-size: 22px;
+    list-style: none;
+  }
+
+/* Efectos en los Div */
+
+  #cvcolor3 div {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(153, 221, 218);
+    align-items: center;
+  }
+
+  #cvcolor2 div {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    background-color: rgb(153, 221, 218);
+    align-items: center;
+  }
+
+
+  #cvcolor div {
+    margin: 5px 5px;
+    padding: 2px;
+    border-radius: 20px;
+    text-align: right;
+  }
+
+  div.formatosec1 {
+    padding: 2px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  div.formatosec2 {
+    padding: 2px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  div.formatosec3 {
+    padding: 2px;
+    border-radius: 20px;
+    align-self: center;
+    text-align: center;
+    
+  }
+
+  section.datos{
+    background: linear-gradient(to right, #1dd8e6, #a7cde2);
+  
+  }
+
+  h1.text-center {
+    font-size: 70px;
+  }
+
+  h3.text-center {
+    font-size: 40px;
+  }
+
+
+  .formatosec {
+    background-color: white;
+    border-style: solid;
+    padding: 5px;
+    border: 2px;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .formatosec1 {
+    background: linear-gradient(to right, #49a7dd, #c5dee0);
+    border-style: solid;
+    padding: 5px;
+    border: 2px;
+    text-align: center;
+  
+  }
+
+  .formatosec2 {
+    background: linear-gradient(to right, #c5dee0, #2596d8);
+    border-style: solid;
+    font-size: 22px;
+    text-align: center;
+    padding: 3px;
+  }
+
+  .formatosec3 {
+    background: linear-gradient(to right, #c5dee0, #2596d8);
+    border-style: solid;
+    padding: 3px;
+  }
+
+  section.formatosec {
+    margin-top: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  section.formatosec:hover {
+    background-color: rgb(226, 228, 228);
+    outline: 8px ridge rgb(23, 7, 247);
+    border-radius: 2rem;
+   
+  }
+  
+  section.formatosec1 {
+    margin-top: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  section.formatosec1:hover {
+    background-color: rgb(226, 228, 228);
+    outline: 8px ridge rgb(23, 7, 247);
+    border-radius: 2rem;
+   
+  }
+  
+  div.formatosec2 {
+    transition: all 0.3s ease;
+  }
+  
+  
+  div.formatosec2:hover {
+    background: linear-gradient(to right, #2596d8, #c5dee0);
+
+    background-color: turquoise;
+    border-radius: 2rem;
+  }
+  
+  #cvcolor3 div{
+    transition: all 0.3s ease;
+  }
+  
+  #cvcolor3 div:hover{
+    outline: 8px ridge rgb(23, 7, 247);
+    border-radius: 2rem;
+  }
+  
+
+/* Textos y otros */
+
+p{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Formulario de contacto  y Footer*/
+
+.form-group{
+  color: rgb(48, 102, 153);
+  font-size: 25px;
+  font-style: italic;
+  text-align: left;
+  
+}
+
+.redes{
+  font: 40;
+  font-style:italic;
+  color: black;
+}
+
+
+.fondo-page3{
+  background: linear-gradient(to right, #2596d8, #c5dee0);
+  border-radius:20px;
+}
+
+.fondo-page4{
+    background-color:black;
+    border-radius:20px;
+}
+
+.bigicon {
+  font-size: 40px;
+  color: #1f5c92;
+}
+
+.contacto {
+  font-size: 40px;
+  color: #1c64a3;
+}
+
+
+.social {
+   font-size: 50px;
+   color: LightBlue;
+}
+
+.redes2{
+ color: rgb(12, 12, 12);
+ font-size: 20px;
+ font-style: italic;
+}
+
+h6{
+  font: 50px;
+  font-style:italic;
+  color: white;
+}
+
+
+.textoPie{
+  color: rgb(31, 30, 30);
+}
+
+
+hr{
+  border-top: 4px double #555454;
+  text-align: center;
+  color: black;
+  background-color: black;
+}
+
+.redtrabajo{
+  color: rgb(25, 26, 25);
+  font-size: 25px;
+  
+}
+
+.btn-lg{
+  background-color: #155d9c;
+}
+
+
+/* Boton para subir al inicio */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #7c7c7c;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #1e4674;
+}

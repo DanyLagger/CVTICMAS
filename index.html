@@ -1,53 +1,329 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ticmas1</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>PRIMERA PAGINAgit
-      
-    </h1>
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="css/styles.css" />
+      <title>Mi Curriculum Vitae</title>
+    </head>
+  <body>
 
-    <p>HOLA MUNDO - QUE ONDA </p>
-    git remote add origin https://github.com/DanyLagger/CVTICMAS.git
-    git push -u origin main
+    <!--Barra de Navegacion-->
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#datos">Mi CV</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#acerca">Acerca de mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#experiencia">Experiencia Laboral</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#estudios">Estudios</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#formulario">Contacto</a>
+          </li>
 
-    <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/tgbNymZ7vqY">
-    </iframe> 
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<!--  
-    <audio controls>
-        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
-        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio>  -->
 
- 
-    <!--     
-    <video width="320" height="240" controls>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-        <source src="https://www.w3schools.com/html/movie.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-    </video> 
+    <!--Cabecera con los datos personales-->
 
+  <header>
+      <div class="container-fluid" id="cvcolor">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Currículum Vitae</h1>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="text-center">
+              <i class="fas fa-user"></i> Información Personal
+            </h3>
+            
+          </div>
+        </div>
+      </div>
+
+  </header>
+
+
+<main>
+  <button onclick="topFunction()" id="myBtn" title="Volver arriba" class="fas fa-arrow-up"></button>
+
+  <section id="datos" class="formatosec1 ">
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 imagen1">
+            <img src="img/fotodal3.jpg" height="230px" width="230px">
+        </div>
+        <div class="col-lg-4" >
+        </div>
+       <div class="col-lg-5">
+           <ul class="list-unstyled">
+              <li>
+                <strong>Nombre:</strong> Daniel Alejandro Lagger
+              </li>
+              <li>
+                <strong>Dirección:</strong> Acevedo 3968
+              </li>
+              <li>
+                <strong>Email:</strong> daniellagger@gmail.com
+              </li>
+              <li>
+                <strong>Teléfono:</strong> +543764608998
+              </li>
+              <li>
+                <!-- Red linkedin -->
+                <strong>Acceso a mi perfil de trabajo:</strong>
+                <a href="https://www.linkedin.com/in/daniel-alejandro-lagger-6b170859" target="_blank"><strong>Linkedin</strong></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>    
+  </section>
     
-   <form action="" method="post">
-        <label>Nombre: </label>
-        <input type="text" name="nombre" placeholder="Ingrese nombre">
-        <label>Apellido:</label>
-        <input type="text" name="apellido" placeholder="Ingrese apellido">
-        <label >Email:</label>
-        <input type="email" name="email" placeholder="Ingrese e-mail">
-        <label >Password:</label>
-        <input type="password" name="password" placeholder="Ingrese clave">
-        <label >Enviar:</label>
-        <input type="submit" name="enviar">
-   -->  
-    </form>
-</body>
+
+
+  <!--Acerca de mi-->
+    <hr>
+    <section id="acerca" class="formatosec">
+      <div class="container-fluid">
+        <div class="row" >
+          <div class="col-lg-3 formatosec3">
+              <h2 class="fas fa-user-tie"></h2><br>
+              <h2>Acerca de mi</h2>
+          </div>
+          
+         <div class="col-lg-9 formatosec2">
+            <p>Lic. en análisis de Sistemas de información con más de 20 años de experiencia. <br>
+              Responsable, proactivo, trabajo en equipo. <br>
+              Comunicación efectiva, Gestión de proyectos,mejora continua, actitud positiva. <br>
+            </p>
+          </div>
+      </div>
+     </div>   
+     </section>
+
+
+     <!--Experiencia Laboral-->
+     <hr>
+     <section id="experiencia" class="formatosec">
+      
+      <div class="container-fluid">
+        <div class="row" >
+          <div class="col-lg-3 formatosec3">
+              <h2 class="fas fa-award"></h2><br>
+              <h2>Experiencia laboral</h2>
+          </div>
+          
+         <div class="col-lg-9 formatosec2">
+              <h4>Profesional Independiente </h4>
+              <p><strong>2012 a la actualidad:</strong> Instalación e implementación Sistema de Gestión Comercial ERP 
+                ApolloGesCom (software de Gestión empresarial - administrativa – operativa y contable), 
+                Gestión y asesoramiento para la implementación y/o corrección de circuitos operativos, 
+                administrativos y contables en empresas. <br> –Implementación sistema Pharmakos (Módulo para Gestión de Farmacias) 
+                Droguerías (módulo para la Gestión droguerías y trazabilidad de Medicamentos y productos médicos) de la empresa MasterISI. <br>
+                <strong>Logros:</strong>  instalación, implementación y mantenimiento del software de gestión ERP en distintas empresas de la provincia de Misiones principalmente en el rubro: farmacias y droguerías, veterinarias, distribuciones, comercios varios, empresas de Transporte y Logística, etc. 
+
+                </p>
+              <br>
+              <h4>Analista funcional, Galbop SRL</h4>
+              <p><strong>2005 - 2011: </strong> Analista funcional – Representante zonal – GALBOP SRL (Industria de Software). <br>
+                <strong>Logros:</strong>  representante para la zona de Misiones y Corrientes, realizando las tareas de venta, instalación, <br>
+                mantenimiento y atención personalizada a más de 350 farmacias, obras sociales y droguerías.</p>
+          </div>
+      </div>
+     </div>   
+     </section>
+
+     <!--Estudios mas importantes-->
+     <hr>
+     <section id="estudios" class="formatosec">
+    
+      <div class="container-fluid">
+        <div class="row" >
+          <div class="col-lg-3 formatosec3">
+              <h2 class="fas fa-user-graduate"></h2><br>
+              <h2>Educación</h2>
+          </div>
+          
+         <div class="col-lg-9 formatosec2">
+          <ul class="list-unstyled2">
+            <li>
+              <h4>Lic. en Análisis de Sistemas, Universidad Católica de Asunción</h4>
+              <p>Titulo intermedio - Analista de Sistemas - año 2000 <br> Finalización de la tesis de grado - año 2007</p>
+            </li>
+            <li>
+              <h4>QA Tester Profesional avanzado, UTN BA</h4>
+              <p>Curso de QA tester, realizado en 2 etapas. Básico y avanzado - año 2021-2022</p>
+            </li>
+            <li>
+              <h4>Diplomatura metodologías ágiles, UTN BA</h4>
+              <p>Diplomatura en metodologías ágiles - aplicación en el marco del trabajo y proyectos - año 2022</p>
+            </li>
+          </ul>
+          </div>
+      </div>
+     </div>   
+    </section> 
+
+     <!-- Habilidades de la persona-->
+     <hr>
+      <section id="habilidades" class="formatosec">
+      
+          <div class="container-fluid">
+            <div class="row" >
+              <div class="col-lg-3 formatosec3">
+                  <h2 class="fa-sharp fa-solid fa-chalkboard-user"></h2>
+                  <h2>Habilidades</h2>
+              </div>
+             <div class="col-lg-9 formatosec2">
+              <ul class="list-unstyled2">
+                <li>
+                  <h4>Idiomas</h4>
+                  <p>Inglés (básico - técnico) - portugués (avanzado) </p><br>
+                </li>
+                <li>
+                  <h4>	Herramientas y trabajos Informáticos</h4>
+                  <p>•	Instalación y configuración de Windows en todas sus versiones. <br>
+                    •	Instalación, configuración e implementación de Windows server en todas sus versiones, configuración de usuarios, manejo de escritorios remotos. <br>
+                    •	Asesor tecnológico de empresas (actualizaciones tecnológicas de hardware y software, mantenimiento preventivo, redes LAN) <br>
+                    •	Especialista en Seguridad informática, backup y recuperación de datos 
+                    •	Reparación y armado de PC
+                    </p>
+                </li>
+                <li>
+                  <h4>Sistemas ERP de Gestión comercial</h4>
+                  <p>Instalación e implementación de sistemas de Gestión ERP. Planificación, asesoramiento e implementación de Circuitos de trabajo (facturación y cuentas corrientes, compras y manejo de proveedores, stock y control de depósitos, logística, contabilidad impositiva y general, retenciones, cajas y bancos, trazabilidad de medicamentos, auditoria de obras sociales)</p>
+                </li>
+                
+              </ul>
+              </div>
+          </div>
+         </div>   
+         
+       
+     </p>
+     
+      </section>
+
+<!--Formulario de Contacto... con formspree a mi mail-->
+
+<br>
+<hr>
+  <section id="formulario" class="formatosec">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="well well-sm">
+                  <form action="https://formspree.io/f/xwkjvplg" class="form-horizontal" method="post">
+                      <fieldset>
+                          <legend class="text-center contacto"><strong>Formulario de Contacto</strong> </legend>
+
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                              <div class="col-md-12">Nombre y Apellido
+                                  <input id="name" name="Nombre y Apellido" type="text" placeholder="Nombre y Apellido" class="form-control">
+                                  <br>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                              <div class="col-md-12">Dirección Email
+                                  <input id="email" name="Dirección email" type="text" placeholder="Dirección Email" class="form-control">
+                                  <br>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                              <div class="col-md-12">Teléfono
+                                  <input id="phone" name="Teléfono" type="text" placeholder="Teléfono" class="form-control">
+                                  <br>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                              <div class="col-md-12">Escriba su consulta
+                                  <textarea class="form-control" id="message" name="message" placeholder="Escriba aqui su consulta o mensaje. Le responderé a la mayor brevedad posible. Gracias por su contacto." rows="7"></textarea>
+                                  <br>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <div class="col-md-12 text-center">
+                                  <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                  <br>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</form>
+</section>
+<br>
+</main>  
+
+
+<!--Pie del Portfolio-->
+<footer>
+   <div class="container-fluid">
+       <div class="row fondo-page3">
+            <div class="col-sm-6 align-self-end text-center">
+               <h5 class="textoPie">  Dirección: Acevedo 3968</h5>
+               <h5 class="textoPie">C.P: 3300 - Posadas - Misiones</h5>
+               <h5 class="textoPie">Tel.: (+54) 3764608998</h5>
+           </div>
+           <div class="col-sm-6 align-self-end text-center">
+               <div class="social">
+                  <h5 class="redes2">EN LAS REDES</h5>
+                  <a href="https://www.facebook.com/DanyLagger" target="_blank"> <i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/laggerdaniel/" target="_blank"> <i class="bi bi-instagram"></i></a>
+                  <a href="https://twitter.com/laggerdaniel" target="_blank"> <i class="bi bi-twitter"></i></a>
+               </div>
+          </div>
+    </div>
+ </div>
+
+
+ <div class="row fondo-page4">
+      <div class="col-sm align-self-end text-center">
+           <h6>  Lic. Daniel Lagger &copy - 2023</h6>
+           <h6>Todos los Derechos Reservados</h6>
+       </div>
+</div>
+
+</footer>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ba0ece2d64.js"></script>
+  </body>
 </html>
